@@ -21,21 +21,21 @@ void setup(){
 	SDL_GL_MakeCurrent(displayWindow, context);
     
 	glViewport(0, 0, 800, 600);
-    glMatrixMode(GL_PROJECTION_MATRIX);
+    glMatrixMode(GL_PROJECTION);
     glOrtho(-1.33, 1.33, -1.0, 1.0, -1.0, 1.0);
     glClearColor(1.0f, 1.0f, 1.0f, 0.0f); //set backgound to white
 
     LHS.photo_path =(char*) "happy.png";
     LHS.height = 0.3f;
     LHS.width = 0.08f;
-    LHS.set_x = -0.85f;
+    LHS.set_x = -1.25f;
     LHS.set_y = 0.0f;
 
     
     RHS.photo_path =(char*) "sad.png";
     RHS.height = 0.3f;
     RHS.width = 0.08f;
-    RHS.set_x = 0.85f;
+    RHS.set_x = 1.25f;
     RHS.set_y = 0.0f;
 
     ball.photo_path =(char*) "ball.png";
@@ -200,12 +200,12 @@ void Update(float& lastFrameTicks, int& left_score,int& right_score){
         else if (ball.set_y >  0.95f)
             ball.angle = (360-ball.angle);
         
-        else if (ball.set_x <=  -0.95f) {
+        else if (ball.set_x <=  -1.33f) {
             //right score
             ball.angle = (180-ball.angle);
             right_score++;
         }
-        else if (ball.set_x >=  0.95f) {
+        else if (ball.set_x >=  1.33f) {
             //left score
             ball.angle = (180-ball.angle);
             left_score++;
