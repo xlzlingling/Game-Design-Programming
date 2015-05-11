@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="64" height="16" tilewidth="16" tileheight="16" nextobjectid="25">
+ <tileset firstgid="1" name="sprites" tilewidth="16" tileheight="16">
+  <image source="GamingDesgin/sprites.png" width="256" height="128"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="64" height="16">
+  <data encoding="base64" compression="zlib">
+   eJztk90JgDAMhLtCR3A03cCf/bEPPpQjCUmbgLZ+EJBojty1pvSD7NXzBe/WUhv0jlKnUZfTkvRwlxZt/E4zI0Hp1TroRfJgpWVfC9Q5eO6PUNpeHqOy0t59rzkOzM5bf1ZyVZEzPXOjM1IuOfn5icqF07X2Oe3lKc8cvkLt3yuHDM9v+lfwvlP+e3OI9Mppa/uS35YctD0N1NlElNU/lUPUXj9zcwNn8h2N
+  </data>
+ </layer>
+ <objectgroup name="player">
+  <properties>
+   <property name="type" value="player"/>
+  </properties>
+  <object id="8" name="player" type="player" gid="99" x="31" y="207"/>
+ </objectgroup>
+ <objectgroup name="enemy">
+  <properties>
+   <property name="type" value="enemy"/>
+  </properties>
+  <object id="9" name="enemy1" type="enemy" gid="81" x="175" y="208"/>
+  <object id="10" name="enemy2" type="enemy" gid="81" x="272" y="210"/>
+  <object id="11" name="enemy3" type="enemy" gid="81" x="418" y="177"/>
+  <object id="12" name="enemy4" type="enemy" gid="81" x="481" y="128"/>
+  <object id="13" name="enemy7" type="enemy" gid="81" x="750" y="209"/>
+  <object id="14" name="enemy5" type="enemy" gid="81" x="664" y="205"/>
+  <object id="15" name="enemy8" type="enemy" gid="81" x="849" y="208"/>
+  <object id="16" name="enemy10" type="enemy" gid="82" x="925" y="205"/>
+  <object id="17" name="enemy9" type="enemy" gid="82" x="893" y="210"/>
+  <object id="18" name="enemy6" type="enemy" gid="82" x="733" y="211"/>
+ </objectgroup>
+ <objectgroup name="key">
+  <object id="24" name="key" type="item" gid="87" x="977.388" y="206.113"/>
+ </objectgroup>
+</map>
