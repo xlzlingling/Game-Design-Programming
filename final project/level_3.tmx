@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="320" height="8" tilewidth="16" tileheight="16" nextobjectid="3">
+ <tileset firstgid="1" name="sheet" tilewidth="70" tileheight="70">
+  <image source="sheet.png" width="980" height="490"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="320" height="8">
+  <data encoding="base64" compression="zlib">
+   eJztmUsOgzAMRHMFTsCR2g30/jepWERCCOTgGX8QftIsKhLbcZNBwNRam0qlUumF6nwbxgzO18ZB8v6AuRKsfrBZHHNl7cEeZj80650BdSz38ShXa2fugav1I/E6Hv7HGoOMf2IsKc/IGdHEvJv77DoKu4+W+yvK/zLA8D/rXu/5HH6j/jdCtv/siHd9mfd99H1IWq/Wo7P5HwPEQzP5aflfLNnriyTLcwx6ZiN93Yo3+h8ag+1/Fs+22nleebxiSXks9jfrfFj2wcP/rGM/2a/OkOqyrjuz/3nFHh2/3i3EoIYIPN+XZ+7DBrMXUf7n+U1Lwtv/kPvCNjb6+3OpVCpF6Q/JM0wJ
+  </data>
+ </layer>
+ <objectgroup name="player 1">
+  <object id="1" name="player red" type="player 1" gid="70" x="-1" y="110"/>
+ </objectgroup>
+ <objectgroup name="player 2">
+  <object id="2" name="player blue" type="player 2" gid="42" x="-3" y="77"/>
+ </objectgroup>
+</map>

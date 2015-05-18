@@ -1,0 +1,15 @@
+Final update
+
+sound:
+	- sound effect:
+	 	-- crash ( when crash on wall, there will be sound)
+		-- jump ( when jump up, there will be sound)
+	- background music
+
+effect:
+	when player hits to each other, there will be screen shaking
+
+level:
+	there will be 3 level in the game.
+	each time a player finishes a level, both player will jump to the next level.
+	player who win more level will win the game.
